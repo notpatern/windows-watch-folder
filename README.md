@@ -12,7 +12,7 @@ This project provides a solution for monitoring a folder and automatically pushi
 
 1. **Prepare the Monitored Folder**: Ensure the folder you want to monitor is set up with appropriate permissions.
 
-2. **Run the command in your command prompt**: windows-watchfolder \<folder-to-monitor\> \<username\> \<password\> \<sftp-host\>
+2. **Run the command in your command prompt**: windows-watchfolder.exe \<folder-to-monitor\> \<username\> \<password\> \<sftp-host\>
 
 3. **Monitor Output**: The script will continuously monitor the specified folder and push any new files to the configured SFTP server.
 
