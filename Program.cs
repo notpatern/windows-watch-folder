@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace windows_watchfolder;
 
-Console.WriteLine("Hello, World!");
+static class Program
+{
+    static void Main(string[] args)
+    {
+        string caca = "caca";
+        new WatchFolder.WatchFolder(caca, caca, caca, caca);
+    }
+}
