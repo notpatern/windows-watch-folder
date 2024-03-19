@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
+        <OutputType>WinExe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
         <RootNamespace>windows_watchfolder</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <StartupObject>windows_watchfolder.Program</StartupObject>
     </PropertyGroup>
 
     <ItemGroup>

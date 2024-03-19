@@ -4,7 +4,6 @@ static class Program
 {
     static void Main(string[] args)
     {
-        string caca = "caca";
-        new WatchFolder.WatchFolder(caca, caca, caca, caca);
+        new WatchFolder.WatchFolder(args[0], args[1], args[2], args[3]);
     }
 }
