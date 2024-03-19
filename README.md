@@ -16,10 +16,6 @@ This project provides a solution for monitoring a folder and automatically pushi
 
 3. **Monitor Output**: The script will continuously monitor the specified folder and push any new files to the configured SFTP server.
 
-## Contributing
-
-Contributions are welcome! If you want to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
-
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
