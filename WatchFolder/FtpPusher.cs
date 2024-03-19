@@ -10,12 +10,12 @@ public class FtpPusher(string username, string password, string ftpUrl)
 
     public void Upload(string file)
     {
-        var isFileLocked = true;
+        bool isFileLocked = true;
         do
         {
             try
             {
-                var tryStream = new FileInfo(file).Open(FileMode.Open, FileAccess.Read, FileShare.None);
+                FileStream tryStream = new FileInfo(file).Open(FileMode.Open, FileAccess.Read, FileShare.None);
                 tryStream.Close();
             }
             catch (IOException)
@@ -36,7 +36,7 @@ public class FtpPusher(string username, string password, string ftpUrl)
         _client.Dispose();
         
         stream.Close();
-        File.Delete(file);
         stream.Dispose();
+        File.Delete(file);
     }
 }
