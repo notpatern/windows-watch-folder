@@ -26,7 +26,6 @@ public class FtpPusher(string username, string password, string ftpUrl)
         } 
         while (isFileLocked);
         
-        Console.WriteLine("file accessible");
         FileStream stream = new FileStream(file, FileMode.Open);
         
         _client.Connect();
